@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cmd /c \"dir node_modules\\\\@prisma\\\\client /b && dir node_modules\\\\@prisma\\\\client\\\\\\.prisma /b 2>nul \\|\\| echo MISSING_PRISMA_DIR && dir node_modules\\\\@prisma\\\\client\\\\\\.prisma\\\\client /b 2>nul \\|\\| echo MISSING_CLIENT_DIR\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
